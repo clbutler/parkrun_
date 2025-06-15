@@ -105,6 +105,8 @@ You can manage these relationships using the **Manage Relationships button** on 
 
  Finally I have GitHub Issues open if you find any bugs you can escalate them to me, and GitHub Discussions are also open if you want to suggest new features
 
+This dashboard was created using Microsoft PowerBI Version: 2.144.679.0 64-bit (June 2025)
+
 ---
 
 
