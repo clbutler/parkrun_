@@ -11,17 +11,17 @@ The dashboard is organized into two main pages, each designed to give you a deta
 
 This page focuses on your running performance, allowing you to track your times and see how you've progressed.
 
-**Lifetime ParkRun Count:** See the total number of ParkRuns you've completed.
+  **Lifetime ParkRun Count:** _See the total number of ParkRuns you've completed._
 
-**Fastest Run Time:** Discover your personal best time.
+  **Fastest Run Time:** _Discover your personal best time._
 
-**Average Run Time:** Get an understanding of your typical performance.
+  **Average Run Time:** _Get an understanding of your typical performance._
+  
+  **Run Time Distribution:** _A box and whisker plot visualizes the spread and central tendency of your run times._
 
-**Run Time Distribution:** A box and whisker plot visualizes the spread and central tendency of your run times.
+  **ParkRun Times by Date/Year:** _Track your run times over time with detailed views by date and year._
 
-**ParkRun Times by Date/Year:** Track your times over time with detailed views by date and year.
-
-**Event and Year Slicers:** Easily filter your data to focus on specific events or years.
+  **Event and Year Slicers:** _Easily filter your data to focus on specific events or years._
 
 **Example Output:** ![image](https://github.com/user-attachments/assets/bbc1db3b-a770-4b8d-ab10-9f52f0211110)
 
@@ -29,12 +29,12 @@ This page focuses on your running performance, allowing you to track your times 
 
 Explore your ParkRun adventures geographically and analyze your performance at different courses.
 
-**Interactive Map of All ParkRun Locations Attended:** Visualize all the different ParkRun events you've participated in on an interactive map.
+  **Interactive Map of All ParkRun Locations Attended:** _Visualize all the different ParkRun events you've participated in on an interactive map._
 
-**Unique Location Count:** See how many different ParkRun events you've run at.
+  **Unique Location Count:** _See how many different ParkRun events you've run at._
 
-**Fastest Location:** Identify the location where you achieved your fastest time.
+  **Fastest Location:** _Identify the location where you achieved your fastest time._
 
-**Favorite (Most Popular) Location:** Discover which ParkRun event you've attended the most.
+  **Favorite (Most Popular) Location:** _Discover which ParkRun event you've attended the most._
 
-**Example Output:** ![image](https://github.com/user-attachments/assets/ebe6eab3-1912-402e-b1bb-9bcd95ff1665)
+  **Example Output:** ![image](https://github.com/user-attachments/assets/ebe6eab3-1912-402e-b1bb-9bcd95ff1665)
