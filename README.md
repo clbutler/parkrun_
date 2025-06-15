@@ -1,5 +1,5 @@
 
-**ParkRun Lifetime Statistics Power BI Dashboard:**
+# **ParkRun Lifetime Statistics Power BI Dashboard:**
 
 This Power BI dashboard provides a comprehensive analysis of your personal ParkRun journey, offering insights into your performance over time and across different locations.
 
@@ -7,7 +7,7 @@ Features:
 
 The dashboard is organized into two main pages, each designed to give you a detailed view of your ParkRun statistics:
 
-**A. Time Dashboard**
+## **A. Time Dashboard**
 
 This page focuses on your running performance, allowing you to track your times and see how you've progressed.
 
@@ -25,7 +25,7 @@ This page focuses on your running performance, allowing you to track your times 
 
 **Example Output:** ![image](https://github.com/user-attachments/assets/bbc1db3b-a770-4b8d-ab10-9f52f0211110)
 
-**B. Location Dashboard**
+### **B. Location Dashboard**
 
 Explore your ParkRun adventures geographically and analyze your performance at different courses.
 
