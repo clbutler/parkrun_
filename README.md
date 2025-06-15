@@ -3,8 +3,6 @@
 
 This Power BI dashboard provides a comprehensive analysis of your personal ParkRun journey, offering insights into your performance over time and across different locations.
 
-Features:
-
 The dashboard is organized into two main pages, each designed to give you a detailed view of your ParkRun statistics:
 
 ## **A. Time Dashboard**
@@ -38,3 +36,42 @@ Explore your ParkRun adventures geographically and analyze your performance at d
   **Favorite (Most Popular) Location:** _Discover which ParkRun event you've attended the most._
 
   **Example Output:** ![image](https://github.com/user-attachments/assets/ebe6eab3-1912-402e-b1bb-9bcd95ff1665)
+
+---
+
+## **Instructions for Use**
+
+Getting started with your ParkRun Power BI Dashboard is straightforward! Just follow these steps to set up and visualize your data:
+
+### **1. Download the Files**
+
+First, download the following three files from this GitHub page:
+
+* `parkrun.csv`
+* `parkrun.pbix`
+* `parkrun_locations.json`
+
+Place all three files into **the same folder** on your computer.
+
+### **2. Load the Power BI Dashboard**
+
+The `parkrun.pbix` file is your Power BI dashboard. Simply open this file, and it'll load all the visualizations and data models.
+
+### **3. ParkRun Locations (No Action Needed)**
+
+The `parkrun_locations.json` file contains the geographical coordinates for all ParkRun locations, accurate as of June 16, 2025. This file is automatically parsed within Power BI (using Power Query), so you **don't need to do anything** with it. I'll periodically update this file to keep the location data current.
+
+### **4. Update Your ParkRun Data**
+
+The `parkrun.csv` file is where your personal ParkRun results live. Since ParkRun doesn't offer API connectivity or allow web scraping, you'll need to **manually update this file** with your own data:
+
+1.  **Log in** to your ParkRun account.
+2.  Navigate to the **"Results"** tab.
+3.  Click on **"View stats for all parkruns by this parkrunner"**.
+4.  **Copy and paste** the entire table (currently titled "All Results") directly into your `parkrun.csv` file.
+
+Once you've updated the `parkrun.csv` file, simply **refresh the data** within your Power BI dashboard to see your latest statistics!
+
+---
+
+
