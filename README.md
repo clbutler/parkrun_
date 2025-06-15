@@ -73,5 +73,41 @@ The `parkrun.csv` file is where your personal ParkRun results live. Since ParkRu
 Once you've updated the `parkrun.csv` file, simply **refresh the data** within your Power BI dashboard to see your latest statistics!
 
 ---
+---
+
+## **Troubleshooting**
+
+Ideally, with all your files in the same folder, you should be able to simply refresh the dashboard (using the **Refresh button** on the Power BI **Home tab**) to see your own data. If that's not working, here are a few things to double-check:
+
+### **1. Verify `parkrun_locations` Data Structure**
+
+Ensure the `parkrun_locations` data table within Power BI's table layer matches the expected format, especially regarding its headers.
+
+ ![image](https://github.com/user-attachments/assets/b0f49509-2ead-4968-b049-a6ce76fca46d)
+
+
+### **2. Verify `parkrun` Data Structure and Freshness**
+
+Confirm that your `parkrun` data table in Power BI has the correct headers and is up-to-date with your latest copied data from the ParkRun website.
+
+ ![image](https://github.com/user-attachments/assets/c4150d2b-3d56-4c8c-ba3e-4b97d47b73f3)
+
+### **3. Check Data Model Relationships**
+
+For the dashboard to function correctly, these two data tables (entities) need to communicate. Verify that the following relationship is set up in the **Model View**:
+
+* The **'Event' columns** in both `parkrun` and `parkrun_locations` act as **keys** and should be linked.
+* There should be a **many-to-one relationship** from the `parkrun` entity to the `parkrun_locations` entity. This makes sense because each ParkRun location can have multiple runs associated with it.
+
+You can manage these relationships using the **Manage Relationships button** on Power BI's **Home ribbon**.
+
+ ![image](https://github.com/user-attachments/assets/4116ffe5-53e7-4889-a75e-3efc5ce3a649)
+
+ Finally I have GitHub Issues open if you find any bugs you can escalate them to me, and GitHub Discussions are also open if you want to suggest new features
+
+---
+
+
+
 
 
