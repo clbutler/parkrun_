@@ -1,7 +1,21 @@
 # ParkRun PowerBI Dashboard
 A PowerBI dashboard to analyse lifetime Parkrun statistics
 
-For instructions on useage please see a video walk through here 
+The resulting dashboard has two pages. A. Time dashboard which presents information about your run times and B. Location dashboard which displays information about the location of ParkRuns. Full features include:
+
+A: Time Dashboard 
+1) Lifetime parkrun count 
+2) Fastest run time 
+3) Average run time 
+4) Run time disrubution (box and whisker plot)
+5) Park run times by date/year
+6) Event and year slicers 
+
+B:
+1) Interactive map of all ParkRun locations attended
+2) Unique location count
+3) Fasted location
+4) Favourite (most popular) location
 
 **Example outputs**
 
